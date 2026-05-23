@@ -1,4 +1,3 @@
 /story 1
 /story 2
-/story3
-/story 4
+/Math and Logic paradoxes and Puzzles
