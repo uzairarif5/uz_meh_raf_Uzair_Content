@@ -1,5 +1,7 @@
 This document is meant for non-coders learning how to use .md files for the first time, it is suppose to be very simple. If any experts see any mistakes, feel free to message me.
 
+I would prefer if your read this doc at Github: https://github.com/uzairarif5/uz_meh_raf_Uzair_Content/blob/main/A%20Basic%20Guide%20On%20Using%20Markdown.md
+
 Switch between preview and code in Github to see the difference.
 
 # This is Heading (also called H1)
@@ -73,13 +75,17 @@ if user.curiousAboutUsingTags:
 To create a horizontal rule, use three or more asterisks (***) by themselves:
 ******
 
+You can add references in footnotes like so[^1]. You can name them anything[^anything] and they will be automatically numbered.
+
 Lastly, if you are citing something from another resource, you can use quotes or blockquotes. <q>Quotes</q> are for inline, while blockquotes span multiple lines. For example:
 
 > Use ">" to do blockquotes.
 >
-> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Moseley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software including versions of Lorem Ipsum. [^1]
+> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Moseley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software including versions of Lorem Ipsum.[^randomText]
 
 > Not adding a ">" in between causes a break. 
 >> Use ">>" for double blockquotes.
 
-[^1]: This is from https://www.lipsum.com
+[^1]: This is a reference for footnote
+[^anything]: Another reference
+[^randomText]: This is from https://www.lipsum.com
