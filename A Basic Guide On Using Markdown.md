@@ -83,7 +83,51 @@ Column1 Heading | Column2 Heading | Column3 Heading | Column4 Heading
 col1 | col2 | col3| col4
 col1 | col2 | col3| col4
 
-The hyphens are there to separate the table header and table body.
+The hyphens are there to separate the table header and table body. You can use HTML as well:
+
+<table>
+  <thead><tr><th>Column1 Heading</th><th>Column2 Heading</th></tr></thead>
+  <tbody>
+    <tr><td>Col1</td><td>Col2</td></tr>
+    <tr><td>Col1</td><td>Col2</td></tr>
+  </tbody>
+</table>
+
+A good thing about using HTML is that you can use `colspan` to specify if a table cell spans multiple columns:
+
+<table>
+  <thead><tr><th>Column1 Heading</th><th>Column2 Heading</th></tr></thead>
+  <tbody>
+    <tr><td>Col1</td><td>Col2</td></tr>
+    <tr><td colspan="2">Col1</td></tr>
+    <tr><td>Col1</td><td>Col2</td></tr>
+  </tbody>
+</table>
+
+You can use `rowspan` to specify if a table cell spans multiple rows:
+
+<table>
+  <thead><tr><th>Column1 Heading</th><th>Column2 Heading</th></tr></thead>
+  <tbody>
+    <tr><td>Col1</td><td rowspan="2">Col2</td></tr>
+    <tr><td>Col1</td></tr>
+    <tr><td>Col1</td><td>Col2</td></tr>
+  </tbody>
+</table>
+
+Unlike with traditional markdown, HTML allows you to have multiple rows for the table header:
+
+<table>
+  <thead>
+    <tr><th>Column1 row1</th><th>Column2 row1</th></tr>
+    <tr><th colspan="2">row2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Col1</td><td rowspan="2">Col2</td></tr>
+    <tr><td>Col1</td></tr>
+    <tr><td>Col1</td><td>Col2</td></tr>
+  </tbody>
+</table>
 
 You can add references in footnotes like so[^1]. You can name them anything[^anything] and they will be automatically numbered.
 
