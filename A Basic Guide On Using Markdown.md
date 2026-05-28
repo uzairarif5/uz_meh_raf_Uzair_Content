@@ -74,6 +74,18 @@ if user.curiousAboutUsingTags:
 To create a horizontal rule, use three or more asterisks (***) by themselves:
 ******
 
+Here | is | a | table
+-|-|-|-
+col1 | col2 | col3| col4
+col1 | col2 | col3| col4
+
+The hyphens are there to separate the table header and table body. The hyphens row can also specify text alignment using colons. A colon on the left of the hypen make it left-aligned, on right of the hyphen makes it right-aligned and on both sides of the hyphen makes it center aligned. Default is left:
+
+Here | is | a | table
+-|:-|-:|:-:
+col1 | col2 | col3| col4
+col1 | col 2 | col3 | col4
+
 You can add references in footnotes like so[^1]. You can name them anything[^anything] and they will be automatically numbered.
 
 Lastly, if you are citing something from another resource, you can use quotes or blockquotes. <q>Quotes</q> are for inline, while blockquotes span multiple lines. For example:
