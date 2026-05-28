@@ -42,11 +42,10 @@ Here is the html way:
 
 <img alt="alternative text if the image does not exists" src="https://source.roboflow.com/dcGjORvHS9Tf5W6627Y58CEWlBm2/0NJK2wMshvFBp6FwL0Yn/original.jpg" title="This is a title, which will be displayed when a mouse hovers on the image">
 
-You can specify width and/or height:
+You can specify width or height:
 
-<img alt="alternative text if the image does not exists" src="https://source.roboflow.com/dcGjORvHS9Tf5W6627Y58CEWlBm2/0NJK2wMshvFBp6FwL0Yn/original.jpg" height="190px" title="This is a title, which will be displayed when a mouse hovers on the image">
+<img alt="alternative text if the image does not exists" src="https://source.roboflow.com/dcGjORvHS9Tf5W6627Y58CEWlBm2/0NJK2wMshvFBp6FwL0Yn/original.jpg" height="50px" title="This is a title, which will be displayed when a mouse hovers on the image">
 <img alt="alternative text if the image does not exists" src="https://source.roboflow.com/dcGjORvHS9Tf5W6627Y58CEWlBm2/0NJK2wMshvFBp6FwL0Yn/original.jpg" width="100px" title="This is a title, which will be displayed when a mouse hovers on the image">
-<img alt="alternative text if the image does not exists" src="https://source.roboflow.com/dcGjORvHS9Tf5W6627Y58CEWlBm2/0NJK2wMshvFBp6FwL0Yn/original.jpg" width="100px" height="190px" title="This is a title, which will be displayed when a mouse hovers on the image">
 
 - You can also make bullet points
 - Here is another
