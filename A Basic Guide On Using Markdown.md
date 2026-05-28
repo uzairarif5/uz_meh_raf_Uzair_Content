@@ -76,14 +76,16 @@ if user.curiousAboutUsingTags:
 To create a horizontal rule, use three or more asterisks (***) by themselves:
 ******
 
-Here | is | a | table
+Here is a table:
+
+Column1 Heading | Column2 Heading | Column3 Heading | Column4 Heading
 -|-|-|-
 col1 | col2 | col3| col4
 col1 | col2 | col3| col4
 
 The hyphens are there to separate the table header and table body. The hyphens row can also specify text alignment using colons. A colon on the left of the hypen make it left-aligned, on right of the hyphen makes it right-aligned and on both sides of the hyphen makes it center aligned. Default is left:
 
-Here | is | a | table
+Column1 Heading | Column2 Heading | Column3 Heading | Column4 Heading
 -|:-|-:|:-:
 col1 | col2 | col3| col4
 col1 | col 2 | col3 | col4
