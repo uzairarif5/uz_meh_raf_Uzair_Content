@@ -129,6 +129,20 @@ Unlike with traditional markdown, HTML allows you to have multiple rows for the 
   </tbody>
 </table>
 
+Rows can have headers as well:
+
+<table>
+  <thead>
+    <tr><th></th><th>Column1 row1</th><th>Column2 row1</th></tr>
+    <tr><th></th><th colspan="2">row2</th></tr>
+  </thead>
+  <tbody>
+    <tr><th>row1</th><td>Col1</td><td rowspan="2">Col2</td></tr>
+    <tr><th>row2</th><td>Col1</td></tr>
+    <tr><th>row3</th><td>Col1</td><td>Col2</td></tr>
+  </tbody>
+</table>
+
 You can add references in footnotes like so[^1]. You can name them anything[^anything] and they will be automatically numbered.
 
 Lastly, if you are citing something from another resource, you can use quotes or blockquotes. <q>Quotes</q> are for inline, while blockquotes span multiple lines. For example:
