@@ -1,6 +1,21 @@
 # Simpson's Paradox
 
-Was there a gender bias among graduate school admissions to University of California? The admission figures for the fall of 1973 shows that men applying were more likely than women to be admitted, and the difference was so large that it was unlikely to be due to chance.
+Alice and Bob are two students who participated in 4 Math competitions, each was focused on a different category of Maths. Out of 4 Math competitions, Alice's total score was 54.5 out of 100, while Bob's total score was 39 out of 100. The total score is the average of four scores. Looking at the total scores, you would think that Alice is better than Bob in Maths.
 
+Now let's look at the individual competition scores:
 
+<table>
+  <thead>
+    <tr><th>Subject</th><th>Alice's Scores</th><th>Bob's Scores</th></tr>
+  </thead>
+  <tbody>
+    <tr><th>Geometry</th><td>62</td><td>72</td></tr>
+    <tr><th>Calculus</th><td>63</td><td>67</td></tr>
+    <tr><th>Probability & Statistics</th><td>90</td><td>13</td></tr>
+    <tr><th>Number theory</th><td>3</td><td>4</td></tr>
+  </tbody>
+</table>
 
+After looking at each scores, we can check that the averages are infact 54.5 and 39. However, Bob got a higher score than Alice on three subjects, while Alice got higher only on one. This means that overall, it is Bob who is better in Maths.
+
+Can you think of why this happens?
