@@ -23,3 +23,5 @@ After looking at each scores, we can check that the averages are infact 54.5 and
 Can you think of why this happens?
 
 This happens because of the extreme case in the Probability & Statistics scores. Even though Bob's score is higher than Alice's in three subjects, their scores are not more than 10%. When considering these three subjects only, Bob's average is higher. However, because Alice got a higher score in Probability & Statistics, and the score difference is more than 70%, Alice's average ended up being higher than Bob's.
+
+An outlier changing an average is simply a math consequence of how the mean is calculated, whereas Simpson's Paradox involves a trend reversing when you split or combine data groups.
