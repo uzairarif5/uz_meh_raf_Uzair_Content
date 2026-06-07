@@ -1,1 +1,2 @@
 The hangman's paradox
+Simpson's paradox
