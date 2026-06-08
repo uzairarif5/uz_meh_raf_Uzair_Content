@@ -24,6 +24,7 @@ The table below shows the admissions of the six largest deparments of University
 
 Just by looking at the total, you would think that men are admitted more than woman, but when looking at each department, you would realize that generally, it is the women that are admitted more.
 
+
 ## The following is not a Simpson's paradox
 
 Alice and Bob are two students who participated in 4 Math competitions, each was focused on a different category of Maths. Out of 4 Math competitions, Alice's total score was 54.5 out of 100, while Bob's total score was 39 out of 100. The total score is the average of four scores. Looking at the total scores, you would think that Alice is better than Bob in Maths.
